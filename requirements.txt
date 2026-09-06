@@ -1,0 +1,12 @@
+# Trained and run on Kaggle-provided NVIDIA T4x2 instances.
+# torch and torchvision below are Kaggle's pre-installed, GPU-matched versions
+# do not force-upgrade them; wilds only requires torch>=1.7.0, so a simple
+# `pip install wilds` on top of Kaggle's base image will not touch them.
+
+wilds
+torch>=1.7.0
+torchvision
+numpy
+pandas
+matplotlib
+tqdm
